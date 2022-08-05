@@ -1,0 +1,68 @@
+# Blender MTL File: 'assault_rifle.blend'
+# Material Count: 6
+
+newmtl Left_Number
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\numbers_plate_bitmap_1.png
+
+newmtl Right_Number
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\numbers_plate_bitmap_1.png
+
+newmtl Screen1
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\display_fp.png
+
+newmtl Screen2
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\assault rifle_fp.png
+
+newmtl grip
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\assault rifle_fp.png
+
+newmtl gun
+Ns 0.000000
+Ka 0.600000 0.600000 0.600000
+Kd 0.600000 0.600000 0.600000
+Ks 0.900000 0.900000 0.900000
+Ke 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\Users\tiago\OneDrive\Desktop\FCG\trabalho_final\Blender\Assault Rifle\assault rifle_fp.png

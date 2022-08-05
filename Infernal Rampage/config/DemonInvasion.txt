@@ -1,0 +1,5 @@
+100	ArchDemonHealth
+3	DemonHealth
+3	DemonProjectileRate
+2	DemonSpawnRate
+5	DemonSpeed

@@ -1,0 +1,5441 @@
+# depslib dependency file v1.0
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\lab4\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1558362948 source:c:\users\tiago\onedrive\desktop\fcg\lab4\src\main.cpp
+	<cmath>
+	<cstdio>
+	<cstdlib>
+	<map>
+	<stack>
+	<string>
+	<vector>
+	<limits>
+	<fstream>
+	<sstream>
+	<stdexcept>
+	<algorithm>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	"utils.h"
+	"matrices.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\_swizzle.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\_swizzle_func.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat2x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat3x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_vector_relational_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\_vectorize.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\simd\exponential.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\simd\common.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\simd\geometric.h
+	"common.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\simd\matrix.h
+	"geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_mat4x4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\constants.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\func_trigonometric_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_projection.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_clip_space.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\matrix_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_geometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_common_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_relational.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\detail\type_quat_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_trigonometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\quaternion_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\quaternion_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\utils.h
+	<cstdio>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\matrices.h
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\lab4\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\lab4\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\lab4\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\_swizzle.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\_swizzle_func.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat2x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat3x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_vector_relational_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\_vectorize.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\simd\exponential.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\simd\common.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\simd\geometric.h
+	"common.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\simd\matrix.h
+	"geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_mat4x4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\utils.h
+	<cstdio>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1559486994 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\infernal\callbacks.cpp
+	"Callbacks.h"
+
+1559487046 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\infernal\callbacks.h
+	<cstdio>
+	<cstdlib>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559486746 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\infernal\shaderloader.cpp
+	"ShaderLoader.h"
+
+1559486840 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\infernal\shaderloader.h
+	<fstream>
+	<string>
+	<sstream>
+	<glad/glad.h>
+
+1559509298 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\main.cpp
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	"Input.h"
+	"World.h"
+	"Map.h"
+	"GameResults.h"
+	"GameTexts.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\constants.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\func_trigonometric_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_projection.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_clip_space.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\matrix_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_geometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_common_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_relational.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\detail\type_quat_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_trigonometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\quaternion_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\quaternion_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1559501019 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\include\matrices.h
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1559489693 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\infernal\basicopenglstuff.h
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<fstream>
+	<sstream>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	"Callbacks.h"
+	"ShaderLoader.h"
+
+1559498283 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\callbacks.cpp
+	"Callbacks.h"
+
+1559498241 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\callbacks.h
+	<cstdio>
+	<cstdlib>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559497999 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\shaderloader.cpp
+	"ShaderLoader.h"
+
+1559502796 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\shaderloader.h
+	<fstream>
+	<string>
+	<sstream>
+	<glad/glad.h>
+
+1559499545 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\basicopenglstuff.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559508464 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\world.cpp
+	"World.h"
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+
+1559508248 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\playercontroller.cpp
+	"PlayerController.h"
+	"matrices.h"
+
+1559508278 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\playercontroller.h
+	"GameObject.h"
+
+1559499340 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\basicopenglstuff.cpp
+	"BasicOpenGlStuff.h"
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<fstream>
+	<sstream>
+
+1559499321 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\input.cpp
+	"Input.h"
+
+1559499218 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\input.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559509070 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\world.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<vector>
+	"ObjModel.h"
+	"GameObject.h"
+	"PlayerController.h"
+
+1559509060 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\objmodel.h
+	<glad/glad.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	"utils.h"
+	"matrices.h"
+
+1559507116 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\gameobject.cpp
+	"GameObject.h"
+
+1559507102 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\gameobject.h
+	<string>
+	"Transform.h"
+
+1559505687 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\transform.h
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+
+1559507242 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\demon.cpp
+	"Demon.h"
+
+1559507234 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\demon.h
+	"GameObject.h"
+
+1559508894 source:c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\map.cpp
+	"Map.h"
+	"PlayerController.h"
+	"Demon.h"
+
+1559508816 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\map.h
+	"World.h"
+
+1559509309 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\gameresults.h
+	"InvasionReader.h"
+
+1559509081 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\invasionreader.h
+	<stdio.h>
+	<stdlib.h>
+
+1559419367 c:\users\tiago\onedrive\desktop\fcg\infernal_tests\src\gametexts.h
+	<stdio.h>
+	<stdlib.h>
+	"GameResults.h"
+
+1559499340 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\basicopenglstuff.cpp
+	"BasicOpenGlStuff.h"
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<fstream>
+	<sstream>
+
+1559499545 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\basicopenglstuff.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\_swizzle.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\_swizzle_func.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat2x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat3x4.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x2.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x3.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_vector_relational_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\_vectorize.hpp
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\simd\exponential.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\simd\common.h
+	"platform.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\simd\geometric.h
+	"common.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\simd\matrix.h
+	"geometric.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_mat4x4_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\constants.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\func_trigonometric_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_projection.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_clip_space.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\matrix_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_geometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_common_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_relational.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\detail\type_quat_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_trigonometric.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\quaternion_transform.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\quaternion_simd.inl
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1559755405 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\demon.cpp
+	"Demon.h"
+	"World.h"
+	"Bullet.h"
+	"Input.h"
+
+1559755392 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\demon.h
+	"GameObject.h"
+
+1559829053 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\gameobject.h
+	<vector>
+	"Transform.h"
+
+1559652951 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\transform.h
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<stdio.h>
+
+1559831961 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\gameobject.cpp
+	"GameObject.h"
+	"matrices.h"
+	"World.h"
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1559611080 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\input.cpp
+	"Input.h"
+
+1559610748 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\input.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<map>
+
+1559512583 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\main.cpp
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	"Input.h"
+	"World.h"
+	"Map.h"
+	"GameResults.h"
+	"GameTexts.h"
+
+1559502796 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\shaderloader.h
+	<fstream>
+	<string>
+	<sstream>
+	<glad/glad.h>
+
+1559656123 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\world.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<vector>
+	"ObjModel.h"
+	"GameObject.h"
+	"PlayerController.h"
+
+1559509060 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\objmodel.h
+	<glad/glad.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	"utils.h"
+	"matrices.h"
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1557922189 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\utils.h
+	<cstdio>
+
+1559501019 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\include\matrices.h
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1559755469 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\playercontroller.h
+	"GameObject.h"
+	"AssaultRifle.h"
+
+1559508816 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\map.h
+	"World.h"
+
+1559509859 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\gameresults.h
+	"InvasionReader.h"
+
+1559509081 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\invasionreader.h
+	<stdio.h>
+	<stdlib.h>
+
+1559509872 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\gametexts.h
+	<stdio.h>
+	<stdlib.h>
+	"GameResults.h"
+
+1559577174 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\map.cpp
+	"Map.h"
+	"PlayerController.h"
+	"Demon.h"
+
+1559755600 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\playercontroller.cpp
+	"PlayerController.h"
+	"matrices.h"
+	"Input.h"
+	"World.h"
+	"Bullet.h"
+	<algorithm>
+
+1559497999 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\shaderloader.cpp
+	"ShaderLoader.h"
+
+1557922189 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1559758191 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\world.cpp
+	"World.h"
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	<algorithm>
+
+1559652487 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\assaultrifle.cpp
+	"AssaultRifle.h"
+	"Bullet.h"
+	"World.h"
+
+1559611925 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\assaultrifle.h
+	"GameObject.h"
+
+1559755385 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\bullet.cpp
+	"Bullet.h"
+
+1559755379 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\bullet.h
+	"GameObject.h"
+
+1559755998 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\collider.cpp
+	"Collider.h"
+	"PhysicsEngine.h"
+
+1559828024 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\collider.h
+	"GameObject.h"
+
+1559740209 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\boxcollider.cpp
+	"BoxCollider.h"
+
+1559740200 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\boxcollider.h
+	"GameObject.h"
+	"Collider.h"
+
+1559832153 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\planecollider.cpp
+	"PlaneCollider.h"
+
+1559832166 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\planecollider.h
+	"GameObject.h"
+	"Collider.h"
+
+1559740250 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\spherecollider.cpp
+	"SphereCollider.h"
+
+1559832023 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\spherecollider.h
+	"GameObject.h"
+	"Collider.h"
+
+1559866072 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\physicsengine.cpp
+	<algorithm>
+	<map>
+
+1559866059 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\physicsengine.h
+	<vector>
+	"CapsuleCollider.h"
+	"PlaneCollider.h"
+	"SphereCollider.h"
+
+1559828332 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal_tests\src\capsulecollider.h
+	"Collider.h"
+
+1561384182 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\assaultrifle.cpp
+	"AssaultRifle.h"
+	"Bullet.h"
+	"World.h"
+	"Sound.h"
+
+1561431696 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\assaultrifle.h
+	"GameObject.h"
+	"Counter.h"
+
+1561430731 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\gameobject.h
+	<vector>
+	"Transform.h"
+	"PhysicsEngine.h"
+
+1561064792 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\transform.h
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<stdio.h>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\_swizzle.hpp
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\_swizzle_func.hpp
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec4_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\constants.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x3.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat2x4.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x2.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat3x4.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x2.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x3.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_vector_relational_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\_vectorize.hpp
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\simd\exponential.h
+	"platform.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\simd\common.h
+	"platform.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\simd\geometric.h
+	"common.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\simd\matrix.h
+	"geometric.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_mat4x4_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\func_trigonometric_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_projection.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_clip_space.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\matrix_transform.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_geometric.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_common_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_relational.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\detail\type_quat_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_trigonometric.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\quaternion_transform.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\quaternion_simd.inl
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1561412160 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\bullet.h
+	"GameObject.h"
+
+1561386788 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\world.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<vector>
+	"ObjModel.h"
+	"GameObject.h"
+	"PlayerController.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1559509062 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\objmodel.h
+	<glad/glad.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	"utils.h"
+	"matrices.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\utils.h
+	<cstdio>
+
+1559501020 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\matrices.h
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1561407908 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\playercontroller.h
+	"GameObject.h"
+	"AssaultRifle.h"
+	"Demon.h"
+
+1560344424 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\basicopenglstuff.cpp
+	"BasicOpenGlStuff.h"
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<fstream>
+	<sstream>
+
+1559499546 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\basicopenglstuff.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559740210 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\boxcollider.cpp
+	"BoxCollider.h"
+
+1559740202 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\boxcollider.h
+	"GameObject.h"
+	"Collider.h"
+
+1561378250 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\collider.h
+	"Transform.h"
+
+1561412640 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\bullet.cpp
+	"Bullet.h"
+	"World.h"
+	"Explosion.h"
+	"SphereCollider.h"
+	"PhysicsEngine.h"
+	"Demon.h"
+	"Archdemon.h"
+
+1561066770 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\collider.cpp
+	"Collider.h"
+	"PhysicsEngine.h"
+	"GameObject.h"
+
+1561506211 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\physicsengine.h
+	<vector>
+	"Transform.h"
+
+1561065194 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\capsulecollider.h
+	"Collider.h"
+
+1561065414 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\planecollider.h
+	"Collider.h"
+
+1561065430 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\spherecollider.h
+	"Collider.h"
+
+1561420146 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\demon.cpp
+	"Demon.h"
+	"World.h"
+	"Bullet.h"
+	"Input.h"
+
+1561419762 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\demon.h
+	"GameObject.h"
+	"Path.h"
+
+1559610750 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\input.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<map>
+
+1561403494 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\gameobject.cpp
+	"GameObject.h"
+	"matrices.h"
+	"World.h"
+
+1557922190 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1559611082 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\input.cpp
+	"Input.h"
+
+1561505781 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\main.cpp
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	"Input.h"
+	"World.h"
+	"Map.h"
+	"GameResults.h"
+	"GameTexts.h"
+	"Archdemon.h"
+	"Sound.h"
+	<time.h>
+
+1561422920 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\shaderloader.h
+	<fstream>
+	<string>
+	<sstream>
+	<glad/glad.h>
+
+1560186700 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\map.h
+	"World.h"
+
+1560345180 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\gameresults.h
+	"InvasionReader.h"
+
+1560343226 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\invasionreader.h
+	<stdio.h>
+	<stdlib.h>
+	"Invasion.h"
+
+1561419036 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\gametexts.h
+	<stdio.h>
+	<stdlib.h>
+	"GameResults.h"
+
+1561433804 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\map.cpp
+	"Map.h"
+	"PlayerController.h"
+	"Demon.h"
+	"Lava.h"
+	"Explosion.h"
+	"Sky.h"
+	"Archdemon.h"
+	"EnergyTankSpawner.h"
+	"EnergyTank.h"
+	"InvasionReader.h"
+
+1561506419 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\physicsengine.cpp
+	"PhysicsEngine.h"
+	"matrices.h"
+	"GameObject.h"
+	<algorithm>
+	<map>
+
+1559832154 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\planecollider.cpp
+	"PlaneCollider.h"
+
+1561420912 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\playercontroller.cpp
+	"PlayerController.h"
+	"matrices.h"
+	"Input.h"
+	"World.h"
+	"Bullet.h"
+	"Sound.h"
+	<algorithm>
+
+1561421981 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\shaderloader.cpp
+	"ShaderLoader.h"
+
+1559740252 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\spherecollider.cpp
+	"SphereCollider.h"
+
+1557922190 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1561422308 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\world.cpp
+	"World.h"
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	<algorithm>
+	<iostream>
+	<stb_image.h>
+
+1559044482 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1560026476 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\counter.cpp
+	"Counter.h"
+
+1560031962 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\counter.h
+	"GameObject.h"
+
+1560029914 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\lava.cpp
+	"Lava.h"
+
+1560029662 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\lava.h
+	"GameObject.h"
+
+1560031314 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+	"ShaderLoader.h"
+
+1557922190 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1560031356 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\textrendering.h
+
+1561411860 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\explosion.cpp
+	"Explosion.h"
+	"World.h"
+
+1560260020 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\explosion.h
+	"GameObject.h"
+
+1560258242 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\sky.cpp
+	"Sky.h"
+
+1560258252 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\sky.h
+	"GameObject.h"
+
+1561420284 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\archdemon.cpp
+	"Archdemon.h"
+	"Demon.h"
+	"World.h"
+	"Explosion.h"
+	"Sound.h"
+	<time.h>
+	<random>
+
+1561420267 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\archdemon.h
+	"GameObject.h"
+	"Invasion.h"
+	"Path.h"
+
+1561418767 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\invasion.h
+
+1561418753 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\invasionreader.cpp
+	"InvasionReader.h"
+
+1561480887 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\sound.h
+	<stdio.h>
+	<irrKlang.h>
+	<conio.h>
+
+1517221132 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\include\conio.h
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+
+1561480910 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\sound.cpp
+	"Sound.h"
+
+1561377518 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\capsulecollider.cpp
+	"CapsuleCollider.h"
+	"GameObject.h"
+
+1561397284 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\path.h
+	"Transform.h"
+
+1561412929 source:c:\users\aluno 07\desktop\infernal rampage\src\archdemon.cpp
+	"Archdemon.h"
+	"Demon.h"
+	"World.h"
+	"Explosion.h"
+	"Sound.h"
+	<time.h>
+	<random>
+
+1561407928 c:\users\aluno 07\desktop\infernal rampage\src\archdemon.h
+	"GameObject.h"
+	"Invasion.h"
+	"Path.h"
+
+1561403500 c:\users\aluno 07\desktop\infernal rampage\src\gameobject.h
+	<vector>
+	"Transform.h"
+	"PhysicsEngine.h"
+
+1561064792 c:\users\aluno 07\desktop\infernal rampage\src\transform.h
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<stdio.h>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_precision.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<cstdint>
+	<type_traits>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\_swizzle.hpp
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\_swizzle_func.hpp
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec4_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\type_ptr.hpp
+	"../gtc/quaternion.hpp"
+	"../gtc/vec1.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../mat2x2.hpp"
+	"../mat2x3.hpp"
+	"../mat2x4.hpp"
+	"../mat3x2.hpp"
+	"../mat3x3.hpp"
+	"../mat3x4.hpp"
+	"../mat4x2.hpp"
+	"../mat4x3.hpp"
+	"../mat4x4.hpp"
+	<cstring>
+	"type_ptr.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\quaternion.hpp
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_common.hpp"
+	"../ext/quaternion_float.hpp"
+	"../ext/quaternion_float_precision.hpp"
+	"../ext/quaternion_double.hpp"
+	"../ext/quaternion_double_precision.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../ext/quaternion_trigonometric.hpp"
+	"../ext/quaternion_transform.hpp"
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"quaternion.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\constants.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_precision.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_precision.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x3.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat2x4.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x2.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat3x4.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x2.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x3.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_vector_relational_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\_vectorize.hpp
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\simd\exponential.h
+	"platform.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\simd\common.h
+	"platform.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\simd\geometric.h
+	"common.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\simd\matrix.h
+	"geometric.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_mat4x4_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\func_trigonometric_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_projection.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_clip_space.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\matrix_transform.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_common.hpp
+	"../ext/scalar_constants.hpp"
+	"../ext/quaternion_geometric.hpp"
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	<limits>
+	"quaternion_common.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_geometric.hpp
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"../ext/vector_relational.hpp"
+	"quaternion_geometric.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_geometric.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_common.inl
+	"quaternion_common_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_common_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_float.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_quat.hpp
+	"../detail/type_mat3x3.hpp"
+	"../detail/type_mat4x4.hpp"
+	"../detail/type_vec3.hpp"
+	"../detail/type_vec4.hpp"
+	"../ext/vector_relational.hpp"
+	"../ext/quaternion_relational.hpp"
+	"../gtc/constants.hpp"
+	"../gtc/matrix_transform.hpp"
+	"type_quat.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_relational.hpp
+	"../vector_relational.hpp"
+	"quaternion_relational.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_relational.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_quat.inl
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"../ext/quaternion_geometric.hpp"
+	<limits>
+	"type_quat_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\detail\type_quat_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_float_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_double.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_double_precision.hpp
+	"../detail/type_quat.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_trigonometric.hpp
+	"../trigonometric.hpp"
+	"../exponential.hpp"
+	"scalar_constants.hpp"
+	"vector_relational.hpp"
+	<limits>
+	"quaternion_trigonometric.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_trigonometric.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_transform.hpp
+	"../common.hpp"
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"quaternion_transform.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\quaternion_transform.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\quaternion.inl
+	"../trigonometric.hpp"
+	"../geometric.hpp"
+	"../exponential.hpp"
+	"epsilon.hpp"
+	<limits>
+	"quaternion_simd.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\quaternion_simd.inl
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\vec1.hpp
+	"../ext/vector_bool1.hpp"
+	"../ext/vector_bool1_precision.hpp"
+	"../ext/vector_float1.hpp"
+	"../ext/vector_float1_precision.hpp"
+	"../ext/vector_double1.hpp"
+	"../ext/vector_double1_precision.hpp"
+	"../ext/vector_int1.hpp"
+	"../ext/vector_int1_precision.hpp"
+	"../ext/vector_uint1.hpp"
+	"../ext/vector_uint1_precision.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_bool1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_float1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_double1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_int1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint1.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\ext\vector_uint1_precision.hpp
+	"../detail/type_vec1.hpp"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glm\gtc\type_ptr.inl
+	<cstring>
+
+1561393012 c:\users\aluno 07\desktop\infernal rampage\src\physicsengine.h
+	<vector>
+	"CapsuleCollider.h"
+	"PlaneCollider.h"
+	"SphereCollider.h"
+
+1561065194 c:\users\aluno 07\desktop\infernal rampage\src\capsulecollider.h
+	"Collider.h"
+
+1561378250 c:\users\aluno 07\desktop\infernal rampage\src\collider.h
+	"Transform.h"
+
+1561065414 c:\users\aluno 07\desktop\infernal rampage\src\planecollider.h
+	"Collider.h"
+
+1561065430 c:\users\aluno 07\desktop\infernal rampage\src\spherecollider.h
+	"Collider.h"
+
+1560342802 c:\users\aluno 07\desktop\infernal rampage\src\invasion.h
+
+1561397284 c:\users\aluno 07\desktop\infernal rampage\src\path.h
+	"Transform.h"
+
+1561409600 c:\users\aluno 07\desktop\infernal rampage\src\demon.h
+	"GameObject.h"
+	"Path.h"
+
+1561386788 c:\users\aluno 07\desktop\infernal rampage\src\world.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<vector>
+	"ObjModel.h"
+	"GameObject.h"
+	"PlayerController.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glad\glad.h
+	<windows.h>
+	<stddef.h>
+	<KHR/khrplatform.h>
+	<inttypes.h>
+	<inttypes.h>
+	<inttypes.h>
+	<stdint.h>
+	<stdint.h>
+	<inttypes.h>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\khr\khrplatform.h
+	<sys/cdefs.h>
+	<stdint.h>
+	<inttypes.h>
+	<stdint.h>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\glfw\glfw3.h
+	<stddef.h>
+	<stdint.h>
+	<OpenGL/gl3.h>
+	<OpenGL/gl3ext.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/glcorearb.h>
+	<GLES/gl.h>
+	<GLES/glext.h>
+	<GLES2/gl2.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl3.h>
+	<GLES2/gl2ext.h>
+	<GLES3/gl31.h>
+	<GLES2/gl2ext.h>
+	<vulkan/vulkan.h>
+	<GL/gl.h>
+	<GL/glext.h>
+	<GL/glu.h>
+
+1559509062 c:\users\aluno 07\desktop\infernal rampage\src\objmodel.h
+	<glad/glad.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<tiny_obj_loader.h>
+	"utils.h"
+	"matrices.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\tiny_obj_loader.h
+	<map>
+	<string>
+	<vector>
+	<cassert>
+	<cctype>
+	<cmath>
+	<cstddef>
+	<cstdlib>
+	<cstring>
+	<utility>
+	<fstream>
+	<sstream>
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\utils.h
+	<cstdio>
+
+1559501020 c:\users\aluno 07\desktop\infernal rampage\include\matrices.h
+	<cstdio>
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/matrix_transform.hpp>
+
+1561407907 c:\users\aluno 07\desktop\infernal rampage\src\playercontroller.h
+	"GameObject.h"
+	"AssaultRifle.h"
+	"Demon.h"
+
+1561058518 c:\users\aluno 07\desktop\infernal rampage\src\assaultrifle.h
+	"GameObject.h"
+	"Counter.h"
+
+1560031962 c:\users\aluno 07\desktop\infernal rampage\src\counter.h
+	"GameObject.h"
+
+1560260020 c:\users\aluno 07\desktop\infernal rampage\src\explosion.h
+	"GameObject.h"
+
+1561384182 source:c:\users\aluno 07\desktop\infernal rampage\src\assaultrifle.cpp
+	"AssaultRifle.h"
+	"Bullet.h"
+	"World.h"
+	"Sound.h"
+
+1561412158 c:\users\aluno 07\desktop\infernal rampage\src\bullet.h
+	"GameObject.h"
+
+1561062614 c:\users\aluno 07\desktop\infernal rampage\src\sound.h
+	<stdio.h>
+	<irrKlang.h>
+	<conio.h>
+
+1517224732 c:\users\aluno 07\desktop\infernal rampage\include\conio.h
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<termios.h>
+	<unistd.h>
+	<stdio.h>
+	<memory.h>
+	<stdlib.h>
+	<sys/ioctl.h>
+
+1560344424 source:c:\users\aluno 07\desktop\infernal rampage\src\basicopenglstuff.cpp
+	"BasicOpenGlStuff.h"
+	<cstdlib>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<fstream>
+	<sstream>
+
+1559499546 c:\users\aluno 07\desktop\infernal rampage\src\basicopenglstuff.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+
+1559740210 source:c:\users\aluno 07\desktop\infernal rampage\src\boxcollider.cpp
+	"BoxCollider.h"
+
+1559740202 c:\users\aluno 07\desktop\infernal rampage\src\boxcollider.h
+	"GameObject.h"
+	"Collider.h"
+
+1561412638 source:c:\users\aluno 07\desktop\infernal rampage\src\bullet.cpp
+	"Bullet.h"
+	"World.h"
+	"Explosion.h"
+	"SphereCollider.h"
+	"PhysicsEngine.h"
+	"Demon.h"
+	"Archdemon.h"
+
+1561377518 source:c:\users\aluno 07\desktop\infernal rampage\src\capsulecollider.cpp
+	"CapsuleCollider.h"
+	"GameObject.h"
+
+1561066770 source:c:\users\aluno 07\desktop\infernal rampage\src\collider.cpp
+	"Collider.h"
+	"PhysicsEngine.h"
+	"GameObject.h"
+
+1560026476 source:c:\users\aluno 07\desktop\infernal rampage\src\counter.cpp
+	"Counter.h"
+
+1561413043 source:c:\users\aluno 07\desktop\infernal rampage\src\demon.cpp
+	"Demon.h"
+	"World.h"
+	"Bullet.h"
+	"Input.h"
+
+1559610750 c:\users\aluno 07\desktop\infernal rampage\src\input.h
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	<glm/gtc/type_ptr.hpp>
+	<map>
+
+1561411858 source:c:\users\aluno 07\desktop\infernal rampage\src\explosion.cpp
+	"Explosion.h"
+	"World.h"
+
+1561403494 source:c:\users\aluno 07\desktop\infernal rampage\src\gameobject.cpp
+	"GameObject.h"
+	"matrices.h"
+	"World.h"
+
+1557922190 source:c:\users\aluno 07\desktop\infernal rampage\src\glad.c
+	<stdio.h>
+	<stdlib.h>
+	<string.h>
+	<glad/glad.h>
+	<windows.h>
+	<dlfcn.h>
+
+1559611082 source:c:\users\aluno 07\desktop\infernal rampage\src\input.cpp
+	"Input.h"
+
+1560343182 source:c:\users\aluno 07\desktop\infernal rampage\src\invasionreader.cpp
+	"InvasionReader.h"
+
+1560343226 c:\users\aluno 07\desktop\infernal rampage\src\invasionreader.h
+	<stdio.h>
+	<stdlib.h>
+	"Invasion.h"
+
+1560029914 source:c:\users\aluno 07\desktop\infernal rampage\src\lava.cpp
+	"Lava.h"
+
+1560029662 c:\users\aluno 07\desktop\infernal rampage\src\lava.h
+	"GameObject.h"
+
+1561412766 source:c:\users\aluno 07\desktop\infernal rampage\src\main.cpp
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	"Input.h"
+	"World.h"
+	"Map.h"
+	"GameResults.h"
+	"GameTexts.h"
+	"Archdemon.h"
+	"Sound.h"
+	<time.h>
+
+1560032268 c:\users\aluno 07\desktop\infernal rampage\src\shaderloader.h
+	<fstream>
+	<string>
+	<sstream>
+	<glad/glad.h>
+
+1560186700 c:\users\aluno 07\desktop\infernal rampage\src\map.h
+	"World.h"
+
+1560345180 c:\users\aluno 07\desktop\infernal rampage\src\gameresults.h
+	"InvasionReader.h"
+
+1561376460 c:\users\aluno 07\desktop\infernal rampage\src\gametexts.h
+	<stdio.h>
+	<stdlib.h>
+	"GameResults.h"
+
+1561411890 source:c:\users\aluno 07\desktop\infernal rampage\src\map.cpp
+	"Map.h"
+	"PlayerController.h"
+	"Demon.h"
+	"Lava.h"
+	"Explosion.h"
+	"Sky.h"
+	"Archdemon.h"
+	"EnergyTankSpawner.h"
+	"EnergyTank.h"
+
+1560258252 c:\users\aluno 07\desktop\infernal rampage\src\sky.h
+	"GameObject.h"
+
+1561393006 source:c:\users\aluno 07\desktop\infernal rampage\src\physicsengine.cpp
+	"PhysicsEngine.h"
+	"matrices.h"
+	"GameObject.h"
+	<algorithm>
+	<map>
+
+1559832154 source:c:\users\aluno 07\desktop\infernal rampage\src\planecollider.cpp
+	"PlaneCollider.h"
+
+1561412759 source:c:\users\aluno 07\desktop\infernal rampage\src\playercontroller.cpp
+	"PlayerController.h"
+	"matrices.h"
+	"Input.h"
+	"World.h"
+	"Bullet.h"
+	"Sound.h"
+	<algorithm>
+
+1560032240 source:c:\users\aluno 07\desktop\infernal rampage\src\shaderloader.cpp
+	"ShaderLoader.h"
+
+1560258242 source:c:\users\aluno 07\desktop\infernal rampage\src\sky.cpp
+	"Sky.h"
+
+1561401656 source:c:\users\aluno 07\desktop\infernal rampage\src\sound.cpp
+	"Sound.h"
+
+1559740252 source:c:\users\aluno 07\desktop\infernal rampage\src\spherecollider.cpp
+	"SphereCollider.h"
+
+1560031314 source:c:\users\aluno 07\desktop\infernal rampage\src\textrendering.cpp
+	<string>
+	<glad/glad.h>
+	<GLFW/glfw3.h>
+	<glm/mat4x4.hpp>
+	<glm/vec4.hpp>
+	"utils.h"
+	"dejavufont.h"
+	"ShaderLoader.h"
+
+1557922190 c:\users\aluno 07\desktop\infernal rampage\include\dejavufont.h
+	<stddef.h>
+	<stdint.h>
+
+1557922190 source:c:\users\aluno 07\desktop\infernal rampage\src\tiny_obj_loader.cpp
+	"tiny_obj_loader.h"
+
+1561407770 source:c:\users\aluno 07\desktop\infernal rampage\src\world.cpp
+	"World.h"
+	"BasicOpenGlStuff.h"
+	"ShaderLoader.h"
+	<algorithm>
+	<iostream>
+	<stb_image.h>
+
+1559044482 c:\users\aluno 07\desktop\infernal rampage\include\stb_image.h
+	"stb_image.h"
+	<stdio.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1561410663 source:c:\users\aluno 07\desktop\infernal rampage\src\energytank.cpp
+	"EnergyTank.h"
+	"PhysicsEngine.h"
+	"World.h"
+
+1561409620 c:\users\aluno 07\desktop\infernal rampage\src\energytank.h
+	"GameObject.h"
+
+1561410596 source:c:\users\aluno 07\desktop\infernal rampage\src\energytankspawner.cpp
+	"EnergyTankSpawner.h"
+	"EnergyTank.h"
+	"World.h"
+
+1561409591 c:\users\aluno 07\desktop\infernal rampage\src\energytankspawner.h
+	"GameObject.h"
+
+1561410598 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\energytankspawner.cpp
+	"EnergyTankSpawner.h"
+	"EnergyTank.h"
+	"World.h"
+
+1561409592 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\energytankspawner.h
+	"GameObject.h"
+
+1561430747 c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\energytank.h
+	"GameObject.h"
+
+1561413322 source:c:\users\tiago\onedrive\desktop\fcg\trabalho_final\infernal rampage\src\energytank.cpp
+	"EnergyTank.h"
+	"PhysicsEngine.h"
+	"World.h"
+
